@@ -1,0 +1,171 @@
+*{
+   padding: 0;
+   margin: 0;
+   outline: none;
+}
+ul,ol{
+   list-style: none;
+   padding: 0;
+}
+         /* @media(max-width: ) {
+            
+         } */
+/* universel end --------------------------------*/
+
+/* head css start */
+.logo a{
+   font-size: 20px;
+}
+.nav .barss{
+display: none;
+}
+.nav ul{
+   display: flex;
+   justify-content: space-between;
+}
+.nav ul li a{
+   padding: 0px 4px;
+   font-size: 18px;
+   text-transform: uppercase;
+}
+@media(max-width:992px){
+   .nav ul li a i{
+      display: none;
+   }
+}
+   @media(max-width:768px){
+      /* .logo{
+         width: 100%;
+         text-align: center;
+      } */
+      /* .nav{
+         width: 100%;
+         text-align: center;
+      } */
+      .nav .barss{
+         display: inline-block;
+         background-color: goldenrod;
+         padding: 5px;
+         height: 50px;
+         }
+       .nav ul{
+         display: flex;
+         flex-direction: column;
+         
+       }
+       .ulshow{
+         display: none;
+       }
+       .nav ul li a i{
+         display: inline-block;
+      }
+   }
+/* head css end */
+/* bannar css start */ 
+   .bannar{
+      background-image: url(../img/psdimg/03-STRICT\ copy.png);
+      padding: 120px 0;
+      background-size: cover;
+      background-position: top center;
+      background-repeat: no-repeat;
+   }
+   .bannar_hader{
+      width: 200px;
+      text-align: center;
+   }
+/* bannar css end */
+/* about css start */
+.aboutes{
+   background-color: f6f9f9 !important;
+}
+
+/* .aboutImg img{
+   width: 300px;
+   
+} */
+ 
+/* about css end */
+/* servies css start */
+.services{
+   background-color: ffffff !important;
+}
+/* servies css end */
+
+
+
+/* ------------- */
+
+.overlaymain{
+   position: relative;
+}
+
+.overlaymain  .overlay{
+   top: 0;
+   left: 0;
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background-color: #21394794;
+   visibility: hidden;
+    opacity: 0;
+}
+
+.overlaymain:hover .overlay{
+   
+  display: block;
+  display: flex !important;
+ 
+  align-items: center;
+  justify-content: center;
+  visibility: visible;
+  opacity: 1;
+}
+.overlay li{
+   padding: 5px 10px;
+}
+
+
+/* contact css start */
+.contract *{
+ color: white;
+
+}
+.contract  .form-group{
+  
+}
+/* contact css end */
+
+.form-control{
+   color: white;
+   background-color: transparent !important;
+}
+.input_over_text{
+position: relative;
+}
+.input_over_text span{
+position: absolute;
+left: 10px;
+top: 15%;
+color: white;
+display: block;
+
+}
+
+/* footer css satr  */
+.fooer_social_icon{}
+.fooer_social_icon li{
+   height: 40px;
+   width: 40px;
+   background-color: #15a4fa;
+   line-height:none !important ;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 5px;
+}
+.fooer_social_icon li a{
+   display: block !important;
+}
+.fooer_social_icon{}
+
+/* footer css end */
